@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C4C8162A1CF3EDD600D3662E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C816291CF3EDD600D3662E /* main.m */; };
 		C4C816321CF43DA700D3662E /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C816311CF43DA700D3662E /* Fraction.m */; };
+		C4C816351CF43F4500D3662E /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C816341CF43F4500D3662E /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		C4C816291CF3EDD600D3662E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4C816301CF43DA700D3662E /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		C4C816311CF43DA700D3662E /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		C4C816331CF43F4500D3662E /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		C4C816341CF43F4500D3662E /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				C4C816291CF3EDD600D3662E /* main.m */,
 				C4C816301CF43DA700D3662E /* Fraction.h */,
 				C4C816311CF43DA700D3662E /* Fraction.m */,
+				C4C816331CF43F4500D3662E /* Calculator.h */,
+				C4C816341CF43F4500D3662E /* Calculator.m */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C816351CF43F4500D3662E /* Calculator.m in Sources */,
 				C4C8162A1CF3EDD600D3662E /* main.m in Sources */,
 				C4C816321CF43DA700D3662E /* Fraction.m in Sources */,
 			);
